@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 common-css:
   - "/assets/css/beautifuljekyll-minimal.css"
@@ -44,5 +45,22 @@ common-ext-js:
 
     {% include footer-scripts.html %}
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html full = false %}
+
+  <body>
+
+    <div role="main" class="container main-content">
+      {{ content }}
+    </div>
+
+    {% include footer-minimal.html %}
+  
+    {% include footer-scripts.html full = false %}
+  
+>>>>>>> 789494a (initial commit)
   </body>
 </html>

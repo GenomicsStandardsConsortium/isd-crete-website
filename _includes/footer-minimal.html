@@ -1,5 +1,6 @@
 <footer class="footer-min">
   <div class="text-muted">
+<<<<<<< HEAD
     {% if site.author %}
       {{ site.author }}
       &nbsp;&nbsp;&bull;&nbsp;&nbsp;
@@ -16,3 +17,16 @@
     {% endif %}
   </div>
 </footer>
+=======
+	{{ site.author.name }}
+	&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+	{% if page.date %}
+	  {{ page.date }}
+	{% else %}
+	  {{ site.time | date: '%Y' }}
+	{% endif %}
+	&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+	<a href="{{ site.url }}" target="_blank">{{ site.url-short }}</a>
+  </div>
+</footer>
+>>>>>>> 789494a (initial commit)

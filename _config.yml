@@ -18,6 +18,10 @@ author: GSC - HCMR
 # --- List of links in the navigation bar --- #
 ###############################################
 
+
+# Short description of your site
+description: A virtual proof that name is awesome!
+
 navbar-links:
   About: "about"
   Sampling:
@@ -99,6 +103,7 @@ share-links-active:
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
+# --- Misc --- #
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true

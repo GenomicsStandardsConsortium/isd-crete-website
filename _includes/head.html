@@ -1,5 +1,4 @@
 <head>
-<<<<<<< HEAD
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -156,14 +155,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="author" content="{{ site.author.name }}" />
   <meta name="description" content="{{ site.description }}">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
-  <!-- I choose not to use the bootstrap theme css, I think it looks less appealing
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" /> -->
   
   {% if include.full %}
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
@@ -181,4 +177,3 @@
     {% endfor %}
   {% endif %}
 </head>
->>>>>>> 789494a (initial commit)
